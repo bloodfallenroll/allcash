@@ -1,0 +1,143 @@
+.product {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 151px;
+  
+}
+.product__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle__product{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+.tittle__product p{
+  font-family: "ChocolateBox";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 27.98px;
+  color: #fff;
+
+}
+.yellow__product {
+  color: #e2b024;
+}
+
+.menu__desc nav {
+    margin-top:80px;
+    display: flex;
+    gap: 72px;
+    margin-left: 33px;
+    
+}
+.menu__desc_sup{
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400px; 
+  color: #fff;
+  text-decoration: none;
+ }
+ .menu__desc nav:after{
+    position: absolute;
+    content: '';
+    width: 417px;
+    height: 1px;
+    background: #fff;
+    top: 145px;
+    
+ }
+
+ 
+.wines{
+    margin-top: 130px;
+}
+
+.wines__items{
+    display: flex;
+}
+
+
+.wine__disc{
+    font-family: "Poppins";
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    background: #e2b024;
+    height: 40px;
+    width: 81px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.wine__name{
+    font-family: "ChocolateBox";
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 13.99px;
+}
+.wine__sup{
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ 
+   .wine__supdisc{  
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300px;
+    text-decoration: line-through;
+    color: #e2b024;
+   }
+   .wine__price{
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 36px;
+    color: #E2B024;
+   }
+
+   .wines__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:23px
+   }
+
+   .yellow_wines_dsc{
+    margin-top: 75px;
+   }
+   .yellow__winedsc{
+    color:#E2B024;
+    font-family: "chocolatebox";
+    font-size: 18px;
+    line-height: 19px;
+    text-decoration: none;
+    position: relative;
+   }
+   .yellow__winedsc:after{
+    content: '';
+    width: 116px;
+    height: 1px;
+    background: #E2B024;
+    position: absolute;
+    top: 20px;
+    left: 0;
+
+   }
+   .menu__desc_sup:hover{
+    color: #E2B024;
+    transition: 0.3;
+  
+    
+}

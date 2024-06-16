@@ -1,0 +1,64 @@
+.subs{
+   
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 150px;
+    background: #18191A;
+    background-size: cover;
+    height: 332px;
+}
+.subs__content{
+    text-align: center;
+}
+
+.subs__tittle{
+    display: inline-block;
+    margin-top: 57px;
+}
+.subs__tt{  
+    font-family:"ChocolateBox";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 28px;
+    color: #E2B024;
+    margin-bottom: 24px;
+  
+}
+.subs__sup{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 69px;
+   
+}
+.subs__down{
+    display: flex;
+    justify-content: center;
+}
+.black__subs{
+    padding: 10px 41px;
+    border: 0px;
+    outline: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    background: #000;
+    width: 444px;
+    height: 64px;
+}
+.btn__sub{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 127px;
+    height: 64px;
+    background: #E2B024;
+}
+.btn__sub:hover{
+  border: 1px solid #E2B024;
+   color: #fff;
+    background: #18191A;
+}

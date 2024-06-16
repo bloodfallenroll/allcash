@@ -1,0 +1,128 @@
+.features{
+    background: #18191A;
+    background-size: cover;
+    height: 971px;
+    margin-bottom: -267px;
+    margin: 0 auto;
+    padding: 0;
+  
+}
+.features__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+.features__head{
+    font-family: 'Poppins', "sans-serif";
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 267px;
+    max-width: 527px;
+}
+
+
+.features__suptittle{
+    font-family: 'chocolatebox', "sans-serif";
+    color: #E2B024;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 43px;
+    margin-top: 47px; 
+}
+
+
+.features__supdesc{
+    font-family: 'Poppins', "sans-serif";
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 52px;
+     
+}
+
+.features__desc{
+    font-family: 'Poppins', "sans-serif";
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 61px;
+    margin-top: 12px; 
+   
+}
+
+.feutures__btn{
+    margin-top:64px;
+    display: flex;
+    gap:61px;
+}
+
+.yellow__btn{
+    background: #18191A;
+    width: 233px;
+    height: 69px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 24px;
+    border: 1px solid #E2B024;
+}
+.grey__btn{
+    background: #18191A;
+    width: 233px;
+    height: 69px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 24px;
+    border: 1px solid #E2B024;
+}
+.yellow__btn:hover{
+    background: #E2B024;
+    color: #18191A;
+    transition: 0.3;
+}
+.grey__btn:hover{
+    background: #E2B024;
+    color: #18191A;
+    transition:3;
+}
+
+.features__img{
+    margin-top: 166px;
+    position: relative;
+}
+.vectorfr{
+    top: -191px;
+    left: -235px;
+    position: absolute;
+    z-index: 0;
+    
+}
+.vectorsc{
+    top: 82px;;
+    left: -235px;
+    position: absolute;
+    z-index: 0;
+    
+}
+.ellipse{
+    top: -124px;
+    left: -135px;
+    position: absolute;
+    z-index: 0;
+}
+.features_logo{
+    position: absolute;
+    z-index: 1;
+    top: -310px;
+    left: -50px;
+}

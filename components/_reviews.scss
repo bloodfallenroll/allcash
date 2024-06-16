@@ -1,0 +1,53 @@
+.reviews{
+    
+    background-image: url(/assets/img/Rectangle\ 12.png) ;
+    background-size: cover;
+    height: 774px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 174px;
+}
+
+.review__tittle{
+    margin-top: 154px;
+}
+
+.client__tittle{
+font-family: "ChocolateBox";
+font-size: 48px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.yellow__review{
+    color: #E2B024;
+}
+
+
+.review__content{
+    text-align: center;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev__port__img{
+    margin-top: 58px;
+
+}
+.rev__name{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    margin-top: 31px;
+}
+
+.rev__supdesc{
+    margin-top: 31px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.05px;
+}
